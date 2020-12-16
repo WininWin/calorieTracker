@@ -1,0 +1,16 @@
+.food-charts-details-container {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+    .food-charts-details-container {
+      flex-direction: column;
+
+      .food-cal-card {
+          padding-bottom: 1rem;
+      }
+    }
+  }

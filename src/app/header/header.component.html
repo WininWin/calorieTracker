@@ -1,1 +1,16 @@
-<p>header works!</p>
+<div class="app-title">
+    <h1 class="mat-h1">Calories Tracker</h1>
+</div>
+<div>
+    Date: {{ currentDate }}
+</div>
+<div class="food-type-desc">
+Food Types: 
+  <span 
+    class="food-type" 
+    *ngFor="let food of foodTypeWithColor"
+    [ngClass]="food.color"
+    >
+        {{ food.name }}
+    </span>
+</div>

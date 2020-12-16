@@ -1,4 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html { 
+    height: 100%;
+}
+body { 
+    margin: 0;
+    padding: 2rem;
+    background: #FEEAE6;
+    color: #442C2E;
+}
+.ct-fruit-color {
+    color: #FF4081;
+    &--background {
+        background-color: #FF4081;
+    }
+}
+
+.ct-meat-color {
+    color: #FF5252;
+    &--background {
+        background-color: #FF5252;
+    }
+}
+
+.ct-vegetable-color {
+    color: #e91e63;
+    &--background {
+        background-color: #e91e63;
+    }
+}
+
+.ct-drink-color {
+    color: #ffab40;
+    &--background {
+        background-color: #ffab40;
+    }
+}
+
+.ct-snack-color {
+    color: #f48fb1;
+    &--background {
+        background-color: #f48fb1;
+    }
+}
+
+
+.ct-other-color {
+    color: #ef9a9a;
+    &--background {
+        background-color: #ef9a9a;
+    }
+}

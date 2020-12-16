@@ -1,0 +1,20 @@
+.food-data-card {
+    min-width: 24rem;
+    background: #FEDBD0;
+
+    .food-data-chart {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cal-input-container {
+        .mat-form-field {
+            max-width: 8rem;
+            margin: 0.5rem;
+        }
+        
+        .spinner {
+            display: inline-block;
+        }
+    }
+}
